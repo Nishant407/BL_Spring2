@@ -12,4 +12,10 @@ public class HelloWebController {
     public String sayHello() {
         return "Hello from BridgeLabz";
     }
+    @GetMapping("/web")
+    public String hello(){
+        return "hello";
+    }
+
+
 }
